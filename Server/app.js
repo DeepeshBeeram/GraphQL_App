@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://Meher_IS603:Beeram@123@cluster-is603.pwuby.mongodb.net/GraphQL-DB?retryWrites=true&w=majority",
+  "mongodb+srv://Meher_IS603:xyz@cluster-is603.pwuby.mongodb.net/GraphQL-DB?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
